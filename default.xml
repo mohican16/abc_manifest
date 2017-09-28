@@ -76,7 +76,7 @@
 
   <!-- Bullhead trees -->
   <project path="device/lge/bullhead" name="abc_device_lge_bullhead" groups="device,bullhead,broadcom_pdk,pdk" remote="mohican" revision="o" />
-  <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead,broadcom_pdk,pdk" remote="pure" revision="o" />
+  <project path="kernel/lge/bullhead" name="abc_kernel_lge_bullhead" groups="device,bullhead,broadcom_pdk,pdk" remote="mohican" revision="o" />
   <project path="vendor/lge" name="abc_vendor_lge" remote="mohican" revision="o" />
 
   <!-- AOSP trees -->
