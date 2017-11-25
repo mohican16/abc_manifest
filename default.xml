@@ -37,7 +37,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="abc_manifest" remote="abc" revision="o" />
+  <project path="manifest" name="abc_manifest" remote="mohican" revision="o" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o" />
   <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o" />-->
   <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />
