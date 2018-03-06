@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
            sync-c="true" />
-  <default revision="refs/tags/android-8.1.0_r11"
+  <default revision="refs/tags/android-8.1.0_r17"
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
@@ -78,7 +78,7 @@
   <!-- Bullhead trees -->
   <project path="device/lge/bullhead" name="abc_device_lge_bullhead" groups="device,bullhead,broadcom_pdk,pdk" remote="mohican" revision="o2" />
   <project path="kernel/lge/bullhead" name="abc_kernel_lge_bullhead" groups="device,bullhead,broadcom_pdk,pdk" remote="mohican" revision="o2" />
-  <project path="vendor/lge" name="abc_vendor_lge" remote="mohican" revision="o" />
+  <project path="vendor/lge" name="abc_vendor_lge" remote="mohican" revision="o2" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
